@@ -180,7 +180,7 @@ function App() {
           <Notes>
             <p>
               Las herramientas para diseñar y para desarrollar vienen
-              desarrollándose hace mucho. Pero hasta no hace mucho tiempo, había
+              evolucionando hace mucho. Pero hasta no hace mucho tiempo, había
               una barrera entre esos 2 mundos.
             </p>
           </Notes>
@@ -238,16 +238,9 @@ function App() {
           <Notes>
             <p>
               Existen muchísimas metodologías y sistemas que permiten organizar
-              el Design System y los componentes
-            </p>
-            <p>
-              Una de las más conocidas tal vez sea{' '}
-              <a href="https://bradfrost.com/blog/post/atomic-web-design/">
-                Atomic Design
-              </a>{' '}
-              desarrollada por Brad Frost hace unos años, pero lo que quiero
-              destacar acá, es que cada proyecto y cada empresa tienen que
-              encontrar su propia forma de organizar el DS.
+              el Design System y los componentes, pero lo que quiero destacar
+              acá, es que cada proyecto y cada empresa tienen que encontrar su
+              propia forma de organizar el DS.
             </p>
           </Notes>
         </Slide>
@@ -259,6 +252,16 @@ function App() {
               alt="design system"
             />
           </FlexBox>
+          <Notes>
+            <p>
+              Una de las mejores maneras de arrancar, y tal vez la más popular
+              sea
+              <a href="https://bradfrost.com/blog/post/atomic-web-design/">
+                Atomic Design
+              </a>
+              desarrollada por Brad Frost hace unos años,
+            </p>
+          </Notes>
         </Slide>
         <Slide backgroundColor={theme.colors.mainBackground}>
           <FlexBox flexDirection="column" flex="1">
@@ -295,7 +298,7 @@ function App() {
             <H1>Adaptarse</H1>
           </FlexBox>
           <Notes>
-            <Paragraph>
+            <p>
               La mejor forma de hacerlo, desde mi punto de vista, es como
               diseñadores, trabajando con componentes (o como se llamen
               dependiendo del software) en la herramienta que usemos. De ésta
@@ -303,7 +306,7 @@ function App() {
               equipo de front-end tenga que trabajar, ya que al reutilizar
               componentes es mas sencillo extraer elementos para componentizar
               el código
-            </Paragraph>
+            </p>
           </Notes>
         </Slide>
         <Slide backgroundColor={theme.colors.mainBackground}>
