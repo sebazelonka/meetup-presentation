@@ -50,7 +50,9 @@ function App() {
               src={process.env.PUBLIC_URL + '/images/me.jpg'}
               alt="@sebazelonka"
             />
-            <H2>@sebazelonka</H2>
+            <Box marginTop={2}>
+              <H2>@sebazelonka</H2>
+            </Box>
           </FlexBox>
         </Slide>
         <Slide backgroundColor={theme.colors.mainBackground}>
